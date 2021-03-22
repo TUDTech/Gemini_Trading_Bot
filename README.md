@@ -129,7 +129,7 @@ for event in api.order_events('44375901'):
 
 `example.py` is a simple example bot that randomly creates some initial buys, then sells the moment it makes a certain threshold percentage of profit.
 
-It might profit if the market is trending upwards, but generally this strategy [doesn't work](https://gist.github.com/pirate/eac582480aa34b5adda9e6adc1878190) if you want to make any real money.  This code serves as a boilerplate example upon which to build other, more advanced bots.
+It might profit if the market is trending upwards, but generally this strategy doesn't work if you want to make any real money.  This code serves as a boilerplate example upon which to build other, more advanced bots.
 
 This type of tight, risk-averse bot will only make small profits because it never waits for big upward trends to max out, it sells as soon as it goes in the green.  The days where it starts in the red and stays there also end up sucking much of the profit away.
 
