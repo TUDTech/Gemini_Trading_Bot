@@ -1,5 +1,3 @@
-# Stubs for websocket._abnf (Python 3.6)
-
 from ._exceptions import *
 from typing import Any
 
